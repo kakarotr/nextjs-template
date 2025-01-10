@@ -1,0 +1,35 @@
+@import "button.css";
+@import "input.css";
+@import "switch.css";
+@import "checkbox.css";
+@import "date-picker.css";
+@import "keyframes.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background-default text-font-primary;
+  }
+}

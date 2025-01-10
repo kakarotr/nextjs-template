@@ -1,0 +1,49 @@
+.wave::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  animation-duration: 600ms;
+  animation-timing-function: cubic-bezier(0, 0, .2, 1), cubic-bezier(0, 0, .2, 1);
+}
+
+.border-2.wave::after {
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+}
+
+.primary-wave-active::after {
+  z-index: 1;
+  animation-name: primary-wave, wave-opacity;
+}
+
+.secondary-wave-active::after {
+  z-index: 1;
+  animation-name: secondary-wave, wave-opacity;
+}
+
+.info-wave-active::after {
+  z-index: 1;
+  animation-name: info-wave, wave-opacity;
+}
+
+.success-wave-active::after {
+  z-index: 1;
+  animation-name: success-wave, wave-opacity;
+}
+
+.warning-wave-active::after {
+  z-index: 1;
+  animation-name: warning-wave, wave-opacity;
+}
+
+.danger-wave-active::after {
+  z-index: 1;
+  animation-name: danger-wave, wave-opacity;
+}

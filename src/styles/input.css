@@ -1,0 +1,17 @@
+.outline-input-focus {
+  border: 1px solid hsl(var(--primary)) !important;
+  box-shadow: 0 0 0 2px hsla(var(--primary), 0.2);
+}
+
+.standard-input-focus input {
+  border-bottom-color: hsl(var(--primary)) !important;
+}
+
+.filled-input-focus {
+  background-color: hsl(var(--background-default)) !important;
+  border: 1px solid hsl(var(--primary)) !important;
+}
+
+.filled-input-focus input {
+  background-color: hsl(var(--background-default)) !important;
+}

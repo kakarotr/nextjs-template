@@ -1,0 +1,63 @@
+@keyframes wave-opacity {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes primary-wave {
+  0% {
+    box-shadow: 0 0 0.5px 0 hsl(var(--primary));
+  }
+  100% {
+    box-shadow: 0 0 0.5px 4.5px hsl(var(--primary));
+  }
+}
+
+@keyframes secondary-wave {
+  0% {
+    box-shadow: 0 0 0.5px 0 hsl(var(--secondary));
+  }
+  100% {
+    box-shadow: 0 0 0.5px 4.5px hsl(var(--secondary));
+  }
+}
+
+@keyframes info-wave {
+  0% {
+    box-shadow: 0 0 0.5px 0 hsl(var(--info));
+  }
+  100% {
+    box-shadow: 0 0 0.5px 4.5px hsl(var(--info));
+  }
+}
+
+@keyframes success-wave {
+  0% {
+    box-shadow: 0 0 0.5px 0 hsl(var(--success));
+  }
+  100% {
+    box-shadow: 0 0 0.5px 4.5px hsl(var(--success));
+  }
+}
+
+@keyframes warning-wave {
+  0% {
+    box-shadow: 0 0 0.5px 0 hsl(var(--warning));
+  }
+  100% {
+    box-shadow: 0 0 0.5px 4.5px hsl(var(--warning));
+  }
+}
+
+@keyframes danger-wave {
+  0% {
+    box-shadow: 0 0 0.5px 0 hsl(var(--danger));
+  }
+  100% {
+    box-shadow: 0 0 0.5px 4.5px hsl(var(--danger));
+  }
+}
